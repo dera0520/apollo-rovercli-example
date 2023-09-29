@@ -1,0 +1,16 @@
+# Federationのバージョンを指定する事が可能
+federation_version: =2.3.2
+# federation_version: =0.36.0
+
+# サブグラフの定義を列挙する
+subgraphs:
+  # Userサブグラフ
+  user:
+    routing_url: http://localhost:4001
+    schema:
+      subgraph_url: http://localhost:4001
+  # Productサブグラフ
+  product:
+    routing_url: http://localhost:4002
+    schema:
+      subgraph_url: http://localhost:4002

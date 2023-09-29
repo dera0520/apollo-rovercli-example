@@ -1,0 +1,21 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:user-graph": "node user-graph.js",
+    "start:product-graph": "node product-graph.js",
+    "start:gateway": "node gateway.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "dependencies": {
+    "@apollo/gateway": "^2.5.5",
+    "@apollo/server": "^4.9.3",
+    "@apollo/subgraph": "^2.5.5",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
+  }
+}
